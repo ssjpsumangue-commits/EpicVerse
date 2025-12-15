@@ -1,0 +1,79 @@
+/* ====== GENERAL ====== */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0e0e17;
+  color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1.5rem;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 3rem 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  border-radius: 18px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+/* ====== HEADINGS ====== */
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cccccc;
+  margin-bottom: 2rem;
+}
+
+/* ====== BUTTON ====== */
+.back-btn {
+  display: inline-block;
+  padding: 0.8rem 1.8rem;
+  background: #ffffff;
+  color: #0e0e17;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.back-btn:hover {
+  background: #e5e5e5;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 480px) {
+  .container {
+    padding: 2rem 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .back-btn {
+    font-size: 0.9rem;
+    padding: 0.7rem 1.5rem;
+  }
+}

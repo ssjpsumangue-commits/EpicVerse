@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Shera Jane P. Sumangue" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="" />
+  <meta name="description"
+    content="Official mini-site for THE EPIC MUSICAL by Jorge Rivera-Herrans. Songs, story, cast, and music player." />
+
+  <title>EpicVerse</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="EpicVerse.css" />
+  <link rel="icon" type="image/png" href="images/favicon (9).ico" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a class="brand" href="#home" aria-label="THE EPIC MUSICAL homepage">
+        <span class="logo-mark" aria-hidden="true">✦</span>
+        <div class="brand-text">
+          <h1>THE EPIC MUSICAL</h1>
+          <p class="subtitle">by Jorge Rivera-Herrans</p>
+        </div>
+      </a>
+
+      <!-- Mobile nav toggle  -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-hidden="true" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+      </label>
+
+      <nav class="nav" role="navigation" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#songs">Highlights</a></li>
+          <li><a href="#casts">Casts and Roles</a></li>
+          <li><a href="#tickets">Tickets</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+
+    <!-- Back to Top Anchor -->
+    <a id="top"></a>
+
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <h2 class="eyebrow">A new stage odyssey</h2>
+          <h3>THE EPIC MUSICAL</h3>
+          <p class="lead">
+            An emotional, cinematic musical journey exploring love, loss, and bravery.
+            Featuring songs like <strong>Suffering</strong>, <strong>Open Arms</strong>,
+            <strong>Scylla</strong>, and more.
+          </p>
+          <a class="btn btn-primary" href="#tickets">Reserve Now</a>
+          <a class="btn btn-ghost" href="#songs">Explore Hit Songs</a>
+        </div>
+
+        <div class="hero-media" aria-hidden="false">
+          <img src="images/bg.jpg" alt="Album cover for THE EPIC MUSICAL" class="cover-art" />
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= ACCORDION ================= -->
+    <div class="accordion">
+
+      <input type="checkbox" id="q1" />
+      <label for="q1">What is The Epic Musical?</label>
+      <div class="content">
+        <p>A musical retelling of The Odyssey.</p>
+      </div>
+
+      <input type="checkbox" id="q2" />
+      <label for="q2">Who created it?</label>
+      <div class="content">
+        <p>Jorge Rivera-Herrans.</p>
+      </div>
+
+    </div>
+
+    <!-- ================= MODAL IMAGE ================= -->
+    <a href="#img1">
+      <img src="images/cutie.jpg" class="thumb" />
+    </a>
+
+    <div class="modal" id="img1">
+      <a href="#casts" class="close">×</a>
+      <img src="images/cast.jpg" class="modal-img" />
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="panel">
+      <div class="container">
+        <div class="panel-grid">
+          <div>
+
+            <h4>About the Musical <span class="badge">NEW</span></h4>
+
+            <div class="progress-container">
+              <div class="progress-bar">70%</div>
+            </div>
+
+            <p>
+              <span style="color:rgb(212, 162, 162); font-weight:bold;">THE EPIC MUSICAL</span>
+              tells the legendary journey of Odysseus as he fights to return home after the
+              Trojan War. Guided by hope and haunted by loss, Odysseus leads his loyal crew
+              across dangerous seas filled with monsters, gods, and impossible trials.
+            </p>
+
+            <p>
+              The story unfolds through powerful, emotional songs that highlight each stage
+              of their voyage—from moments of love and sacrifice to battles with mythical
+              creatures like Scylla.
+            </p>
+
+            <input type="checkbox" class="acc" id="acc1" />
+            <label for="acc1" class="acc">Read More</label>
+            <div class="acc-content">
+              It's a powerful retelling of Odysseus’s journey home after the Trojan War, told through epic songs and dramatic scenes. The story begins with the war’s end, where Odysseus faces difficult choices, including tragic acts required by fate. He then sails home with his men, encountering dangers like the Lotus Eaters, the Cyclops Polyphemus, the enchantress Circe, and magical trials in the underworld. Along the way, the gods intervene—sometimes helping, sometimes hindering him—and he struggles with loss, pride, and temptation. After years of peril, Odysseus finally returns to Ithaca, where suitors have overrun his home. Using his wits and strength, he defeats them and reunites with his wife Penelope, though the journey has left him changed and scarred. Throughout, the musical emphasizes the cost of war, the trials of heroism, and the enduring power of home, family, and love.</div>
+
+              <p>Here's a short timeline for the story of the movie!</p>
+  <!-- ================= TIMELINE ================= -->
+<!-- Enhanced Timeline Section -->
+
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h5>Trojan War Ends</h5>
+      <p>After ten long years of war, Odysseus devises the Trojan Horse, leading to Troy's fall and the Greeks' victory.</p>
+    </div>
+  </div>
+  
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h5>Encounter with Polyphemus</h5>
+      <p>Odysseus blinds the Cyclops Polyphemus, earning the deadly curse of Poseidon.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h5>Sirens, Scylla, and Charybdis</h5>
+      <p>He survives deadly sea monsters and the Sirens' song through wit and sacrifice.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h5>Island of the Sun God</h5>
+      <p>His crew disobeys the gods by killing Helios' sacred cattle, sealing their fate.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h5>Calypso's Island</h5>
+      <p>Odysseus is trapped for years until the gods command Calypso to release him.</p>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-content">
+      <h5>Return to Ithaca</h5>
+      <p>Disguised as a beggar, Odysseus defeats the suitors and reunites with Penelope.</p>
+    </div>
+  </div>
+</div>
+</section>
+  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Highlight -->
+    <section id="songs" class="panel panel-alt">
+      <div class="container">
+        <h4 class="section-title">Highlight Songs</h4>
+        <p class="section-intro">Top tracks from THE EPIC MUSICAL. Click the button <span style="color:rgb(170, 154, 10); font-weight:bold;">Listen Now</span> to listen and know the song.</p>
+
+        <div class="songs-grid">
+          <article class="song-card" tabindex="0">
+            <img src="images/sufferinga.jpg" alt="Suffering cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Suffering  <a class="btn btn-ghost" href="suffering.html">Listen Now</a></h6>
+              <p class="song-meta">The song portrays the Sirens’ allure and danger, as they draw others into their world of pain and temptation, 
+              highlighting the seductive yet destructive nature of suffering.</p>
+            </div>
+          </article>
+
+          <article class="song-card" tabindex="0">
+            <img src="images/open arms.jpg" alt="Open Arms cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Open Arms  <a class="btn btn-ghost" href="open arms.html">Listen Now</a></h6>
+              <p class="song-meta">Polites expresses hope and reassurance, showing care and support as he encourages connection and trust, emphasizing friendship 
+              and loyalty during difficult times.</p>
+            </div>
+          </article>
+          
+          <article class="song-card" tabindex="0">
+            <img src="images/well be fine.jpg" alt="We'll Be Fine cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">We'll Be Fine  <a class="btn btn-ghost" href="WELLBEFINE.HTML">Listen Now</a></h6>
+              <p class="song-meta">The song conveys optimism and reassurance, with the characters expressing hope and determination, 
+              believing that despite hardships, everything will be alright.</p>
+              </div>
+          </article>
+          
+          <article class="song-card" tabindex="0">
+            <img src="images/keep friends.jpg" alt="Keep Your Friends Close cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Keep Your Friends Close  <a class="btn btn-ghost" href="keep your friends close.html">Listen Now</a></h6>
+              <p class="song-meta">The song highlights loyalty and strategy, as Odysseus and his allies emphasize the importance of trust, camaraderie, 
+              and careful alliances while navigating challenges and enemies.</p>
+             </div>
+          </article>
+
+          <article class="song-card" tabindex="0">
+            <img src="images/sorry.jpg" alt="Not Sorry for Loving You cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Not Sorry for Loving You  <a class="btn btn-ghost" href="not sorry.html">Listen Now</a></h6>
+              <p class="song-meta">The song expresses Calypso’s heartfelt love for Odysseus, showing her vulnerability and longing while declaring she has 
+              no regrets for loving him, even though he must leave her alone.</p>
+             </div>
+          </article>
+
+          <article class="song-card" tabindex="0">
+            <img src="images/wyfinlove.jpg" alt="Would You Fall in Love With Me cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Would You Fall in Love With Me  <a class="btn btn-ghost" href="wyfilwma.html">Listen Now</a></h6>
+              <p class="song-meta">The song shows Odysseus longing for Penelope as he wonders whether, after all the years apart and everything he’s been through, 
+              she would still choose to love him again.</p>
+             </div>
+          </article>
+          
+          <article class="song-card" tabindex="0">
+            <img src="images/legendaryy.jpg" alt="We'll Be Fine cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Legendary  <a class="btn btn-ghost" href="legendary.html">Listen Now</a></h6>
+              <p class="song-meta">“Legendary” follows Telemachus as he vows to step out of his father Odysseus’s shadow, prove his own worth, 
+              and become a hero who will be remembered by all on his own right.</p>
+               </div>
+          </article>
+          
+          <article class="song-card" tabindex="0">
+            <img src="images/scylla.jpg" alt="Scylla cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Scylla  <a class="btn btn-ghost" href="scylla.html">Listen Now</a></h6>
+              <p class="song-meta">“Scylla” depicts the transformation of a girl into a terrifying monster and the fear and heartbreak that follow. 
+              It shows how her curse isolates her and turns her into a danger to others.</p>
+              </div>
+          </article>
+
+          <article class="song-card" tabindex="0">
+            <img src="images/warriornofmind.jpg" alt="Warrior Of The Mind cover art" class="song-thumb" />
+            <div class="song-body">
+              <h6 class="song-title">Warrior Of The Mind  <a class="btn btn-ghost" href="warrior.html">Listen Now</a></h6>
+              <p class="song-meta">"Warrior Of The Mind" shows Athena embracing her identity as a strategic, intelligent fighter, highlighting her confidence, 
+                discipline, and reliance on wisdom over brute strength.</p>
+              </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= CAST ================= -->
+    <section id="casts" class="panel">
+      <div class="container">
+
+        <h4 class="section-title">Casts and Roles</h4>
+
+        <div class="cast-grid">
+
+          <div class="cast-card">
+            <img src="images/Jorge_Rivera-Herrans.jpg" alt="Lead actor portrait" />
+            <h6>Odysseus</h6>
+            <p>
+              Jorge Rivera-Herrans
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="cast-card">
+            <img src="images/anna-penelope.jpg" alt="Lead actress portrait" />
+            <h6>Penelope / Sirens</h6>
+            <p>
+              Anna Lea
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="cast-card">
+            <img src="images/teagan as athenal.jpg" alt="Director portrait" />
+            <h6>Athena</h6>
+            <p>
+              Teagan Earley
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="cast-card">
+            <img src="images/steven as polites.jpg" alt="Lead actress portrait" />
+            <h6>Polites</h6>
+            <p>
+                Steven Dookie
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="cast-card">
+            <img src="images/kj as scylla.jfif" alt="Lead actress portrait" />
+            <h6>Scylla</h6>
+            <p>
+                KJ Burkhauser
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+           <div class="cast-card">
+            <img src="images/migue as telemachus.jpg" alt="Lead actress portrait" />
+            <h6>Telemachus</h6>
+            <p>
+                Miguel Veloso
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="cast-card">
+            <img src="images/barbara.avif" alt="Lead actress portrait" />
+            <h6>Calypso</h6>
+            <p>
+                Barbara Wangui
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+          <div class="cast-card">
+            <img src="images/kira aeolus.png" alt="Lead actress portrait" />
+            <h6>Aeolus</h6>
+            <p>
+                Kira Stone
+              <span class="tooltip">
+                <span class="tooltiptext">A brave Greek king who journeys home after the Trojan War.</span>
+              </span>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================= FLIP CARDS ================= -->
+      <div class="flip-card-wrapper">
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h5>Odysseus</h5>
+            </div>
+            <div class="flip-card-back">
+              <p>King of Ithaca</p>
+              <p>Hero of the story</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h5>Penelope</h5>
+            </div>
+            <div class="flip-card-back">
+              <p>Queen of Ithaca</p>
+              <p>Loyal and wise</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <h5>Athena</h5>
+            </div>
+            <div class="flip-card-back">
+              <p>Goddess of Wisdom</p>
+              <p>Guide of heroes</p>
+            </div>
+          </div>
+        </div>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5>Polites</h5>
+    </div>
+    <div class="flip-card-back">
+      <p>Odysseus’ trusted friend</p>
+      <p>Kind-hearted and hopeful</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5>Scylla</h5>
+    </div>
+    <div class="flip-card-back">
+      <p>Cursed sea monster</p>
+      <p>Tragic and terrifying</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5>Telemachus</h5>
+    </div>
+    <div class="flip-card-back">
+      <p>Son of Odysseus</p>
+      <p>Brave and determined</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5>Calypso</h5>
+    </div>
+    <div class="flip-card-back">
+      <p>Immortal nymph</p>
+      <p>Loving yet lonely</p>
+    </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5>Aeolus</h5>
+    </div>
+    <div class="flip-card-back">
+      <p>God of the winds</p>
+      <p>Playful and powerful</p>
+    </div>
+  </div>
+</div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+<!-- RESERVE TICKET SECTION -->
+<section id="tickets" class="panel">
+  <div class="container">
+    <h4 class="section-title">Reserve Tickets</h4>
+    <p class="section-intro">
+      Secure your seats for THE EPIC MUSICAL and experience the journey of Odysseus live on screen.
+    </p>
+
+    <div class="ticket-wrapper">
+      <form action="reserve.html" method="get" class="ticket-form">
+
+        <label for="ticket-name">Full Name</label>
+        <input type="text" id="ticket-name" placeholder="Your full name" required>
+
+        <label for="ticket-email">Email Address</label>
+        <input type="email" id="ticket-email" placeholder="you@example.com" required>
+
+        <label for="ticket-date">Preferred Date</label>
+        <input type="date" id="ticket-date" required>
+
+        <label for="ticket-quantity">Number of Tickets</label>
+        <select id="ticket-quantity" required>
+          <option value="">Select quantity</option>
+          <option value="1">1 Ticket</option>
+          <option value="2">2 Tickets</option>
+          <option value="3">3 Tickets</option>
+          <option value="4">4 Tickets</option>
+          <option value="5">5 Tickets</option>
+        </select>
+
+        <button type="submit" class="btn btn-primary">Reserve Now</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="panel panel-alt">
+  <div class="container">
+    <h4 class="section-title">Contact Us</h4>
+    <p class="section-intro">Have questions, suggestions, or inquiries? We'd love to hear from you.</p>
+
+    <div class="contact-wrapper">
+      <form action="submit.html" method="get" class="contact-form">
+        <label for="contact-name">Name</label>
+        <input type="text" id="contact-name" placeholder="Your name" required>
+
+        <label for="contact-email">Email</label>
+        <input type="email" id="contact-email" placeholder="yourname@example.com" required>
+
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Back to Top -->
+  <a href="#top" class="back-top">↑</a>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> THE EPIC MUSICAL — Jorge Rivera-Herrans. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
